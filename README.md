@@ -1,16 +1,61 @@
-# React + Vite
+# 🧠 AI Interview Practice App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based MCQ interview practice app with timer, multiple categories, and answer review system.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 📚 Multiple categories (React, C, JavaScript, Python)
+* ⏱️ Timer for each question
+* ✅ Score & accuracy calculation
+* 🔍 Review answers
+* 🔄 Reset interview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* JavaScript
+* CSS
+
+---
+
+## 📂 Project Structure
+
+src/
+├── components/
+│   └── Timer.jsx
+├── data/
+│   └── Questions.js
+├── pages/
+│   ├── Home.jsx
+│   ├── Interview.jsx
+│   ├── ShowResult.jsx
+│   ├── ShowReview.jsx
+├── App.jsx
+
+---
+
+## ▶️ Run Locally
+
+```bash
+npm install
+npm start
+```
+
+---
+
+## 💡 Future Improvements
+
+* Difficulty levels
+* Question shuffle
+* Leaderboard
+* UI improvements
+
+---
+
+## 👨‍💻 Author
+
+Natwar Kumar

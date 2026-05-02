@@ -1,6 +1,6 @@
 import React, { useState  } from 'react'
-import Timer from './Timer';
-import {questionData} from './Questions'
+import Timer from '../components/Timer';
+import {questionData} from '../data/Questions'
 import ShowReview from './ShowReview';
 import ShowResult from './ShowResult';
 
